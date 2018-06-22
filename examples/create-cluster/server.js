@@ -1,9 +1,9 @@
 /**
  * @file server.js
- * @description NodeJS Samples - Socket IO Server
+ * @description NodeJS Samples - Node Cluster Server
  * @author Desmond G. Jones <desmond@pnw3dev.com>
  */
- 
+
 /**
  * DEPENDENCIES
  */
@@ -16,8 +16,8 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 
-const CFG = require('./lib/cluster.js')
-CFG.startServer(app, {
+const {startServer} = require('./lib/cluster.js')
+startServer(app, {
     port:8009,
     appname:'Node/Express Cluster Server',
     isCluster:true
