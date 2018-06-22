@@ -1,2 +1,9 @@
-# nodejs-samples
-Public Collection of NodeJS Samples/Snippets
+# NodeJS - Samples
+
+## Getting Started
+
+```
+cd examples/[insert-example-directory]
+npm install
+npm start
+```
