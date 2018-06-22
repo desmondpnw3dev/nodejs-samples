@@ -1,0 +1,19 @@
+{
+  "name": "create-http-server",
+  "version": "1.0.0",
+  "description": "NodeJS Express HTTP Server Example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "port":8001,
+  "keywords": [
+    "express",
+    "nodejs",
+    "create",
+    "server"
+  ],
+  "author": "Desmond G. Jones",
+  "license": "ISC"
+}
