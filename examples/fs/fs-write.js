@@ -1,6 +1,6 @@
 /**
  * @file fs-write.js
- * @description Evosus Pro - [insert-service-module-name]
+ * @description NodeJS Samples - File Sysyem Write File Module
  * @author Desmond G, Jones <desmond@pnw3dev.com>
  */
 
