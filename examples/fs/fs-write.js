@@ -1,6 +1,6 @@
 /**
  * @file fs-write.js
- * @description NodeJS Samples - File Sysyem Write File Module
+ * @description NodeJS Samples - File System Write File Module
  * @author Desmond G, Jones <desmond@pnw3dev.com>
  */
 
