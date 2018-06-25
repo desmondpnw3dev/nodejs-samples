@@ -2,7 +2,7 @@ const assert = require('assert');
 const fs = require('fs');
 // Create a group of tests about Arrays
 describe('fs', function() {
-  // Within our Array group, Create a group of tests for indexOf
+  // Within our fs group, Create a group of tests for writeFile
   describe('#writeFile()', function() {
     // A string explanation of what we're testing
     it('should write file without error', (done) =>{
