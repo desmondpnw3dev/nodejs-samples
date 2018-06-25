@@ -7,7 +7,7 @@ describe('fs', function() {
     // A string explanation of what we're testing
     it('should read file without error', function(done){
       // Our actual test: -1 should equal indexOf(...)
-      fs.readFile('fs-test-write.txt','utf8',(err,data) => {
+      fs.readFile('./fs-test-write.txt','utf8',(err,data) => {
           if (err) { return done(err); }
           return done()
       });

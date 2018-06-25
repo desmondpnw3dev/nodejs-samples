@@ -12,8 +12,8 @@ const port = process.env.PORT || 3000;
 const fs = require('fs');
 
 // import modules
-require('./fs-write')({fs});
-require('./fs-read')({fs});
+require('./lib/fs-write')({fs});
+require('./lib/fs-read')({fs});
 
 //start the server:
 app.listen(port,() => {

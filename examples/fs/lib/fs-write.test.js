@@ -7,7 +7,7 @@ describe('fs', function() {
     // A string explanation of what we're testing
     it('should write file without error', (done) =>{
       // Our actual test: -1 should equal indexOf(...)
-      fs.writeFile('fs-test-write.txt','Testing the write to file!',(err,data) => {
+      fs.writeFile('./fs-test-write.txt','Testing the write to file!',(err,data) => {
           if (err) { return done(err); }
           return done()
       });
