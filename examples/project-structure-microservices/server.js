@@ -9,10 +9,13 @@
  */
 const app = require('express')();
 const port = process.env.PORT || 3000;
-const fs = require('fs');
+const bodyParser = require('body-parser');
+
+app.use(bodyParser.urlencoded({ extended: false })); // important! Required to handle http request data
+app.use(bodyParser.json());
 
 // import modules
-require('./routes')({app});
+require('./server/routes')({app});
 
 //start the server:
 app.listen(port,() => {
